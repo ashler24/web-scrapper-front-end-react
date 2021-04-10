@@ -1,0 +1,68 @@
+#homeLayout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  place-items: center;
+}
+
+.error {
+  color: #ec1818;
+}
+
+section {
+  width: 900px;
+  min-width: 800px;
+}
+
+#searchBar {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 4rem;
+  min-width: 45rem;
+  box-shadow: 0 1px 0 0 dodgerblue;
+}
+
+.search-bar-wrapper {
+  width: 40%;
+}
+
+.input-box-wrapper {
+  display: grid;
+  grid-template-columns: 0fr 0.9fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1rem;
+  gap: 1rem;
+  border: 1px solid #949191;
+  border-radius: 0.75rem;
+}
+
+.search-icon-wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.search-icon {
+  padding: 0.4rem;
+}
+
+.product-name-search {
+  text-transform: lowercase;
+  border: unset;
+}
+
+.product-name-search:focus {
+  outline: unset !important;
+  border: unset;
+  box-shadow: unset;
+}
+
+section#productData {
+  width: 100%;
+  margin: 3rem 1rem 2rem;
+  padding: 3rem;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 20%);
+}
+
+.hide {
+  display: none;
+}
