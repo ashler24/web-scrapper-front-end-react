@@ -58,9 +58,14 @@ section {
 
 section#productData {
   width: 100%;
+  max-width: 65rem;
+  height: 45rem;
+  max-height: 65rem;
+  min-height: 30rem;
   margin: 3rem 1rem 2rem;
   padding: 3rem;
-  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 20%);
+  box-shadow: 4px 4px 10px 0 rgb(0 0 0 / 20%);
+  border-radius: 0.75rem;
 }
 
 .hide {
