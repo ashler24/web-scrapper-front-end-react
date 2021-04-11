@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: `http://localhost:3200/`
+    baseURL: `https://web-scraper-node-deploy.herokuapp.com/data/`
 });
